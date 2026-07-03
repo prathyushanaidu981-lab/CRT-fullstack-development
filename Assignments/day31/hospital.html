@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Appointment Booking</title>
+<link rel="stylesheet" href="hospital.css">
+</head>
+<body>
+
+<header>
+    <h1>City Care Hospital</h1>
+    <p>Your Health, Our Priority</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#emergency">Emergency</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="doctors">
+    <h2>Our Doctors</h2>
+
+    <div class="doctor-card">
+        <h3>Dr. John </h3>
+        <p>Cardiologist</p>
+    </div>
+
+    <div class="doctor-card">
+        <h3>Dr. Mani </h3>
+        <p>Neurologist</p>
+    </div>
+
+    <div class="doctor-card">
+        <h3>Dr. David </h3>
+        <p>Pediatrician</p>
+    </div>
+</section>
+
+<section id="appointment" class="appointment-form">
+    <h2>Book an Appointment</h2>
+
+    <form>
+        <input type="text" placeholder="Patient Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="date" required>
+
+        <select>
+            <option>Select Doctor</option>
+            <option>Cardiologist</option>
+            <option>Neurologist</option>
+            <option>Pediatrician</option>
+        </select>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</section>
+
+<section id="emergency" class="emergency">
+      Emergency Helpline: 108
+</section>
+
+<footer>
+    <p>&copy; 2026 City Care Hospital</p>
+</footer>
+
+</body>
+</html>
