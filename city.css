@@ -1,0 +1,162 @@
+/* General Styling */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#004080;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+/* Navigation */
+nav{
+    background:#0066cc;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Sections */
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:8px;
+}
+
+/* Headings */
+h2{
+    color:#004080;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+p{
+    margin-bottom:10px;
+}
+
+/* Tables */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table, th, td{
+    border:1px solid black;
+}
+
+th{
+    background:#004080;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+/* Lists */
+ul{
+    margin-left:30px;
+    list-style-type:square;
+}
+
+li{
+    margin:8px 0;
+}
+
+/* Project Boxes */
+.project{
+    border:2px solid #004080;
+    background:#e6f2ff;
+    padding:15px;
+    margin:15px 0;
+}
+
+/* Forms */
+form{
+    margin-top:20px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0 15px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+button,
+input[type="submit"]{
+    background:#004080;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover,
+input[type="submit"]:hover{
+    background:#0066cc;
+}
+
+/* Multimedia */
+audio,
+video,
+iframe,
+img{
+    margin:15px 0;
+    border:2px solid gray;
+    max-width:100%;
+}
+
+/* Contact Highlight */
+.contact{
+    color:red;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Footer */
+footer{
+    background:#004080;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}

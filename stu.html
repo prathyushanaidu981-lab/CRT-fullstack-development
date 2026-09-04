@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathyusha | Student Portfolio</title>
+    <link rel="stylesheet" href="stu.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Prathyusha's Student Portfolio</h1>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Home -->
+        <section id="home">
+            <h2>Welcome</h2>
+
+            <article>
+                <p>
+                    Welcome to my student portfolio website. This website contains
+                    my education details, technical skills, projects, resume,
+                    contact information and social media profiles.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- About -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <article>
+
+                <p>
+                    Hello! My name is <b>Prathyusha</b>. I am a Computer Science student
+                    who enjoys learning web development, Java programming,
+                    Python programming and problem solving.
+                </p>
+
+                <h3>Career Goals</h3>
+
+                <p>
+                    My goal is to become a Full Stack Web Developer and Software
+                    Engineer by improving my programming and development skills.
+                </p>
+
+                <h3>Interests</h3>
+
+                <ul>
+                    <li>Web Development</li>
+                    <li>Programming</li>
+                    <li>Machine Learning</li>
+                    <li>Reading Technical Books</li>
+                    <li>Playing Cricket</li>
+                </ul>
+
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- Education -->
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <table border="1" cellpadding="8">
+
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage / CGPA</th>
+                </tr>
+
+                <tr>
+                    <td>B.Tech (CSE)</td>
+                    <td>CITY Engineering College</td>
+                    <td>JNTU</td>
+                    <td>2023-2027</td>
+                    <td>8.7 CGPA</td>
+                </tr>
+
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Devisema policet College</td>
+                    <td>Board of Intermediate</td>
+                    <td>2023</td>
+                    <td>92%</td>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>Government High School</td>
+                    <td>SSC Board</td>
+                    <td>2021</td>
+                    <td>95%</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2>Technical Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C Programming</li>
+                <li>Git & GitHub</li>
+                <li>SQL</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <article>
+
+                <h3>1. Student Management System</h3>
+
+                <p>
+                    <b>Technology Used:</b> Java, MySQL
+                </p>
+
+                <p>
+                    A desktop application to manage student records,
+                    attendance and marks.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>2. QR File Sharing System</h3>
+
+                <p>
+                    <b>Technology Used:</b> HTML, Firebase, Android Studio
+                </p>
+
+                <p>
+                    Upload files, generate QR codes and download files
+                    by scanning QR codes.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>3. Personal Portfolio Website</h3>
+
+                <p>
+                    <b>Technology Used:</b> HTML
+                </p>
+
+                <p>
+                    A portfolio website that showcases education,
+                    projects and contact information.
+                </p>
+
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- Resume -->
+        <section id="resume">
+
+            <h2>Resume Upload Form</h2>
+
+            <form>
+
+                <label>Name:</label><br>
+                <input type="text" name="name" required>
+
+                <br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" required>
+
+                <br><br>
+
+                <label>Phone Number:</label><br>
+                <input
+                    type="tel"
+                    name="phone"
+                    pattern="[0-9]{10}"
+                    placeholder="10 Digit Mobile Number"
+                    required>
+
+                <br><br>
+
+                <label>Upload Resume:</label><br>
+                <input
+                    type="file"
+                    accept=".pdf,.doc,.docx"
+                    required>
+
+                <br><br>
+
+                <input type="submit" value="Submit Resume">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact">
+
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <label>Name:</label><br>
+                <input type="text" required>
+
+                <br><br>
+
+                <label>Email:</label><br>
+                <input type="email" required>
+
+                <br><br>
+
+                <label>Subject:</label><br>
+                <input type="text" required>
+
+                <br><br>
+
+                <label>Message:</label><br>
+
+                <textarea
+                    rows="5"
+                    cols="40"
+                    required></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Social Links -->
+        <section>
+
+            <h2>Social Profiles</h2>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/" target="_blank">
+                    https://www.linkedin.com/
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/" target="_blank">
+                    https://github.com/
+                </a>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Audio -->
+        <section>
+
+            <h2>Self Introduction Audio</h2>
+
+            <audio controls>
+                <source src="intro.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <!-- Video -->
+        <section>
+
+            <h2>Introduction Video</h2>
+
+            <video width="500" controls>
+
+                <source src="intro.mp4" type="video/mp4">
+
+                Your browser does not support video.
+
+            </video>
+
+        </section>
+
+        <hr>
+
+        <!-- Google Map -->
+        <section>
+
+            <h2>College Location</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.920301..."
+                width="600"
+                height="450"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+             2026 Prathyusha | Student Portfolio Website
+        </p>
+
+    </footer>
+
+</body>
+</html>
