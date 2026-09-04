@@ -13,7 +13,7 @@ var name="Jaithri"
 var name="Dhatrhi"
 console.log(name)
 //var redeclares the variable
-//which an lead to bugs
+//which can lead to bugs
 //let: when the value
 //needs to be changed
 
